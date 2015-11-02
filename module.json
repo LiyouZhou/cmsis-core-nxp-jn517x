@@ -1,0 +1,31 @@
+{
+  "name": "cmsis-core-nxp-jn517x",
+  "version": "0.1.0",
+  "description": "CMSIS Core Implementation for JN517x Wireless MCUs",
+  "keywords": [
+    "cmsis"
+  ],
+  "author": "Bangaragiri G <bangaragiri.g@nxp.com>",
+  "repository": {
+    "url": "git@github.com:ARMmbed/cmsis-core-jn517x.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/cmsis-core-jn517x",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    },
+    {
+      "url": "https://spdx.org/licenses/BSD-3-Clause",
+      "type": "BSD-3-Clause"
+    }
+  ],
+  "extraIncludes": [
+    "cmsis-core-nxp-jn517x"
+  ],
+  "dependencies": {
+    "cmsis-core": "*"
+  },
+  "targetDependencies": {}
+}
