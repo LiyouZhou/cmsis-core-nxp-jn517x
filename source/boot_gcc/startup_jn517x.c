@@ -1,29 +1,51 @@
-/****************************************************************************
- *
- * MODULE:             Application Hardware API - Init For JN517x
- *
- * COMPONENT:          $HeadURL: https://www.collabnet.nxp.com/svn/lprf_sware/Projects/Components/HardwareApi/Branches/JN517x-new/Source/AHI_Init.c $
- *
- * DATED:              $Date: 2014-01-29 10:37:57 +0000 (Wed, 29 Jan 2014) $
- *
- * STATUS:             $Id: AHI_Init.c 58928 2014-01-29 10:37:57Z nxp29789 $
- *
- * AUTHOR:             IL
- *
- * DESCRIPTION:
- * Provides an API for access to the hardware peripherals on the device, i.e.
- * timers, UARTs, SPI master, etc.
- *
- * REVISION:           $Revision: 58928 $
- *
- * LAST MODIFIED BY:   $Author: nxp29789 $
- *
- *
- ****************************************************************************
- *
- *  (c) Copyright 2012 NXP Semiconductors B.V.
- *
- ****************************************************************************/
+/*###############################################################################
+#
+# MODULE:             Application Hardware API - Init For JN517x
+#
+# COMPONENT:          $HeadURL: https://www.collabnet.nxp.com/svn/lprf_sware/Projects/Components/HardwareApi/Branches/JN517x-new/Source/AHI_Init.c $
+#
+# AUTHOR:             IL
+#
+# DESCRIPTION:
+# Provides an API for access to the hardware peripherals on the device, i.e.
+# timers, UARTs, SPI master, etc.
+#              
+#
+# $HeadURL:  $
+#
+# REVISION:           $Revision: 58928 $
+#
+# LAST MODIFIED BY:   $Author: nxp29789 $
+#
+# $LastChangedDate: $
+#
+# $Id:  $
+#
+###############################################################################
+#
+# This software is owned by NXP B.V. and/or its supplier and is protected
+# under applicable copyright laws. All rights are reserved. We grant You,
+# and any third parties, a license to use this software solely and
+# exclusively on NXP products [NXP Microcontrollers such as JN514x, JN516x, JN517x].
+# You, and any third parties must reproduce the copyright and warranty notice 
+# and any other legend of ownership on each  copy or partial copy of the software.
+# 
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"  
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+# ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
+# LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+# POSSIBILITY OF SUCH DAMAGE. 
+# 
+# Copyright NXP B.V. 2015-2016. All rights reserved
+#
+###############################################################################*/
+
 
 /****************************************************************************/
 /***        Include files                                                 ***/
