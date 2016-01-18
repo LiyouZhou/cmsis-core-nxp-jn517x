@@ -1045,6 +1045,7 @@ typedef enum
     REG_GPIO_DOUT         = 1,
     REG_GPIO_DIN          = 2,
     REG_GPIO_SDOUT        = 3,
+    REG_GPIO_PULL		  = 4,
 
     /* UART: Repeated for each one */
     REG_UART_DATA         = 0,

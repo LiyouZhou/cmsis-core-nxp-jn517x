@@ -518,6 +518,7 @@ typedef struct {
     uint8      *pu8DataBuffer;
     uint16      u16DataLength;
     bool_t      boMasterWriteData;
+    bool_t      boMasterHoldBus;
 } tsAHII2CBCTentry;
 
 
